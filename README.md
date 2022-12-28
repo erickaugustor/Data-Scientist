@@ -1,2 +1,5 @@
-# udacity
-Projects developed for the Udacity Course
+# Udacity
+
+Projects developed for the Udacity Course.
+✨ Data Scientist Nanodegree.
+
