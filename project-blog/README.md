@@ -16,10 +16,7 @@ The idea is using the knowledge of the session "Introduction of Data Science".
 
 ## Installation <a name="installation"></a>
 
-This code runs with Python version 3.* and requires some libraries.
-
-For install:
-- pip install -r requirements.txt
+This code runs with Python version 3.* and requires some libraries that is presented on the Jupyter Notbook.
 
 Libraries used:
 - pandas
@@ -44,15 +41,15 @@ For this, I formulated four questions regarding the dataset:
 
 Kaggle dived the research of Happines Report in 5 datasets.
 
-2015.csv
-2016.csv
-2017.csv
-2018.csv
-2019.csv
+- 2015.csv
+- 2016.csv
+- 2017.csv
+- 2018.csv
+- 2019.csv
 
 On the datasets is possible to see fields like economics, psychology, happiness score, national statistics, health, public policy, and more.
 
-Also was added some files related to the analyze process.
+Also was added some files related to the analyze the datasets: analyze.ipynb
 
 ## Process<a name="process"></a>
 
