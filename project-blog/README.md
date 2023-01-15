@@ -64,7 +64,9 @@ This project used the CRISP-DM Data Science Process, that consists in some actio
 
 ## Results<a name="results"></a>
 
-The results of the research was published on a [post](https://medium.com/@erick.augustoramos/happiness-across-the-world-the-impact-o-social-aspects-on-happiness-of-their-people-735ae0eb1474) available on Medium with all the graphs ploted and the resume about it. 
+The results of the research was published on a [post](https://medium.com/@erick.augustoramos/happiness-across-the-world-the-impact-o-social-aspects-on-happiness-of-their-people-735ae0eb1474) available on Medium with all the graphs ploted and the resume about it.
+
+It's also possible to verify the complete research of the dataset on the [Jupyter Notebook](https://github.com/erickaugustor/Data-Scientist/blob/main/project-blog/analyse.ipynb).
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
