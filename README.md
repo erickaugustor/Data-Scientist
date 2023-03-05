@@ -10,3 +10,9 @@ On this lesson we had to create and analyze of a dataset using the methods prese
 - Blog on Medium
 
 [More information about this project](https://github.com/erickaugustor/Data-Scientist/tree/main/project-blog)
+
+
+✨ Lesson 2: Disaster Response Pipeline;
+On this lesson we had to create a classify message pipeline
+
+[More information about this project](https://github.com/erickaugustor/Data-Scientist/tree/main/disaster-project)
