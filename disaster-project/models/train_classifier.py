@@ -28,7 +28,7 @@ def load_data(database_filepath):
     """
     
     # load data from database
-    engine = create_engine('sqlite:///../data/DisasterResponse.db')
+    engine = create_engine('sqlite:///{database_filepath}')
     df = pd.read_sql_table('DisasterResponse', engine)
     X = df['message']
     Y = df.drop(['id', 'message', 'original', 'genre'], axis=1)
