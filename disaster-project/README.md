@@ -6,13 +6,27 @@
 
 ## About - Disaster Response Pipeline Project <a name="about"></a>
 
-On this project O created a machine learning pipeline that classify messages. With the web app is possible to input a message and classify this same message in some categories. 
+On this project, I created a machine learning pipeline that classify messages. With the web app, it is possible to input a message and classify this same message in some categories. That is a project that has a real application and could be very helpful to the society, that can be helpful for the emergency worker when insert some message to get a classification to a problem for example. 
 
 ### File Descriptions: <a name="description"></a>
+
 The project contains the following files:
 
-* ETL Pipeline Preparation.ipynb: Notebook with the ETL pipeline;
-* ML Pipeline Preparation.ipynb: Notebook with the Machine Learning pipeline;
+app
+| - template
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- app.py # Flask file that runs app
+data
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py
+models
+|- train_classifier.py
+|- classifier.pkl # saved model
+README.md
+ETL Pipeline Preparation.ipynb # notebook with the ETL pipeline;
+ML Pipeline Preparation.ipynb # notebook with the Machine Learning pipeline;
 
 
 ### Installation: <a name="installation"></a>
