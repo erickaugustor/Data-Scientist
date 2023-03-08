@@ -49,7 +49,7 @@ def build_model():
     # 
     pipeline = Pipeline([
         ('tokenizer', Tokenizer()),
-        ('vec', CountVectorizer()),
+        ('vec', CountVectorizer(tokenizer=Tokenizer.tokenize)),
         ('tfidf', TfidfTransformer()),
         ('clf', MultiOutputClassifier(RandomForestClassifier(n_estimators = 100)))
     ])
@@ -85,7 +85,10 @@ def evaluate_model(model, X_test, Y_test, category_names):
                              recall_score(Y_test.iloc[:, i].values, y_pred[:, i], average='micro')])
     # build dataframe
     performances = pd.DataFrame(performances, columns=['f1 score', 'precision', 'recall'],
-                                index = category_names)   
+                                index = category_names)
+    
+    print('Dataframe created...\n       DATAFRAME:', performances.to_string())
+    
     return performances
 
 
