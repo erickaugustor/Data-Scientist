@@ -8,10 +8,11 @@
 
 On this project, I created a machine learning pipeline that classify messages. With the web app, it is possible to input a message and classify this same message in some categories. That is a project that has a real application and could be very helpful to the society, that can be helpful for the emergency worker when insert some message to get a classification to a problem for example. 
 
-### File Descriptions: <a name="description"></a>
+## File Descriptions: <a name="description"></a>
 
 The project contains the following files:
 
+```
 app
 | - template
 | |- master.html # main page of web app
@@ -27,9 +28,9 @@ models
 README.md
 ETL Pipeline Preparation.ipynb # notebook with the ETL pipeline;
 ML Pipeline Preparation.ipynb # notebook with the Machine Learning pipeline;
+```
 
-
-### Installation: <a name="installation"></a>
+## Installation: <a name="installation"></a>
 1. Run the following commands in the project's root directory to set up the database and model.
     - To run ETL pipeline that cleans data and stores in database:
     `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
