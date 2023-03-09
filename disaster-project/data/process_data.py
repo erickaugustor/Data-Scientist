@@ -44,8 +44,12 @@ def clean_data(df):
         categories[column] = categories[column].apply(lambda x: int(x.split('-')[1]))
 
     # replace the old categories column
-    df.drop('categories', axis = 1, inplace = True)
+    df.drop('categories', axis=1, inplace = True)
     df = df.join(categories)
+    
+    #replacing 2 with 1 in related category
+    df.related.replace(2, 1, inplace=True)
+ 
     # drop duplicates
     df = df.drop_duplicates()
     return df
